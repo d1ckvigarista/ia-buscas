@@ -21,7 +21,7 @@ public class Main {
 		puzzleFinal.setCusto(0);
 		puzzleFinal.setAvaliacao(0);
 						
-		BuscaInformada busca = new AStar();
+//		BuscaInformada busca = new AStar();
 		busca.setInicio(puzzleInicial);
 		busca.setObjetivo(puzzleFinal);
 		busca.buscar();
